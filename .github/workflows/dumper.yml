@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus5TOxygen/OnePlus5TOxygen_43.J.69_GLO_069_2010292144/OnePlus5TOxygen_43_OTA_069_all_2010292144_de4a6fa.zip
+  ROM_URL: https://bigota.d.miui.com/V11.0.23.0.QFQMIXM/miui_LAURELSPROUTGlobal_V11.0.23.0.QFQMIXM_0904d681f7_10.0.zip
   TZ: Asia/Kolkata
 jobs:
   build:
