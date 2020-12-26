@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://drive.a092devs.workers.dev/0:/in%20note%201/MMX_E7746_SW_V8.0._HW_V2.0_20201106.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/xiaomi.eu_multi_HMK20MI9T_20.12.10_v12-11.zip
   TZ: Asia/Kolkata
 jobs:
   build:
