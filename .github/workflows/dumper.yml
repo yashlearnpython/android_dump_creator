@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.23.0.QFQMIXM/miui_LAURELSPROUTGlobal_V11.0.23.0.QFQMIXM_0904d681f7_10.0.zip
+  ROM_URL: https://drive.a092devs.workers.dev/0:/in%20note%201/MMX_E7746_SW_V8.0._HW_V2.0_20201106.zip
   TZ: Asia/Kolkata
 jobs:
   build:
