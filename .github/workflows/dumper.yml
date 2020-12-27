@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/xiaomi.eu_multi_HMK20MI9T_20.12.10_v12-11.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/SM-J610F_2_20200907134534_43nvv7g8lo_fac.zip
   TZ: Asia/Kolkata
 jobs:
   build:
