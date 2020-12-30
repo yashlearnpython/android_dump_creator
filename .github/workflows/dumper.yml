@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: http://bigota.d.miui.com/20.12.25/miui_LAVENDER_20.12.25_af0250256e_10.0.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/SM-J415N_1_20190221162301_ckcq5kxo9i_fac.zip
   TZ: Asia/Kolkata
 jobs:
   build:
