@@ -3,21 +3,16 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus5Hydrogen_23_OTA_065_all_2012030353_e8c692aa5e0c45ca.zip
+  ROM_URL: https://ghostmirror.hitesh920.workers.dev/RMX2185_11_OTA_0810_all_jLGoLXnVv2Zm.zip
   TZ: Asia/Kolkata
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: macos-latest
 
     steps:
        - name: Checkout
          uses: actions/checkout@master
        
-       - name: Initializing environment
-         run: |
-            sudo -E apt-get -qq update
-            sudo -E apt-get -qq install git openjdk-8-jdk wget expect p7zip-full p7zip-rar
-
        - name: Clone Dumper Source Code
          run: git clone https://github.com/AndroidDump/dumper
        
