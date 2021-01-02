@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/SM-J415N_1_20190221162301_ckcq5kxo9i_fac.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus5Hydrogen_23_OTA_065_all_2012030353_e8c692aa5e0c45ca.zip
   TZ: Asia/Kolkata
 jobs:
   build:
