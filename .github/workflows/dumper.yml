@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://ghostmirror.hitesh920.workers.dev/RMX2185_11_OTA_0810_all_jLGoLXnVv2Zm.zip
+  ROM_URL: http://otafsg-cost-az.coloros.com/OnePlus7_EEA/OnePlus7Oxygen_14.E.31_GLO_031_2011052315/patch/amazone2/GLO/OnePlus7Oxygen/OnePlus7Oxygen_14.E.31_GLO_031_2011052315/OnePlus7Oxygen_14.E.31_OTA_031_all_2011052315_304cffe59ff7.zip
   TZ: Asia/Kolkata
 jobs:
   build:
