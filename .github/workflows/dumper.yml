@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: http://otafsg-cost-az.coloros.com/OnePlus7_EEA/OnePlus7Oxygen_14.E.31_GLO_031_2011052315/patch/amazone2/GLO/OnePlus7Oxygen/OnePlus7Oxygen_14.E.31_GLO_031_2011052315/OnePlus7Oxygen_14.E.31_OTA_031_all_2011052315_304cffe59ff7.zip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2001_11_OTA_0530_all_O8r4mG5RmLFG.ozip
   TZ: Asia/Kolkata
 jobs:
   build:
