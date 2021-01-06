@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/20.12.28/miui_DAVINCI_20.12.28_e3f16c4598_11.0.zip
+  ROM_URL: https://bigota.d.miui.com/V12.2.4.0.RJKMIXM/miui_LMIGlobal_V12.2.4.0.RJKMIXM_682e9ad14f_11.0.zip
 jobs:
   build:
     runs-on: ubuntu-latest
