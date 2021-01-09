@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.6.0.QJOINXM/miui_MERLININGlobal_V12.0.6.0.QJOINXM_0ae1368cf7_10.0.zip
+  ROM_URL: https://dl.google.com/dl/android/aosp/redfin-rq1a.210105.003-factory-54539ec0.zip
 jobs:
   build:
     runs-on: ubuntu-20.04
