@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: http://download.h2os.com/5T/MP/OnePlus5THydrogen_43_OTA_065_all_2012030405_03dba2c095454647.zip
+  ROM_URL: http://otafsg-cost.realmemobile.com/RMX1851/RMX1851EX_11.C.10_1100_202011102122/patch/amazone2/GLO/RMX1851EX/RMX1851EX_11.C.10_1100_202011102122/RMX1851EX_11_OTA_1100_all_afysQxXkAd0p_ed2a.ozip
 jobs:
   build:
     runs-on: ubuntu-20.04
