@@ -25,14 +25,14 @@ jobs:
               cd dumper
               sudo pip3 install wheel setuptools
               sudo bash setup.sh
-              touch .tgtoken
-              echo "${{ secrets.BOT }}" >> ".tgtoken"
-              touch .tg_chat
-              echo "@AndroidDumps" >> ".tg_chat"
+              touch .tg_token
+              echo "${{ secrets.BOT }}" >> ".tg_token"
               touch .github_orgname
               echo "AndroidDump" >> ".github_orgname"
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
+              git config --global user.email "manofuranium@gmail.com"
+              git config --global user.name "ElytrA8"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
