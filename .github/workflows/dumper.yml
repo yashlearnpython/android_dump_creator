@@ -3,7 +3,7 @@ name: Building Dump
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.3.0.RJWINXM/miui_CURTANAINGlobal_V12.0.3.0.RJWINXM_738958aad2_11.0.zip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2121_11_OTA_0180_all_MoeO6C0vgRhB.ozip
 jobs:
   build:
     runs-on: ubuntu-20.04
