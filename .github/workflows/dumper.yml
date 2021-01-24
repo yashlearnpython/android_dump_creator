@@ -1,6 +1,7 @@
 name: Building Dump
 
-on: [push]
+on: push
+    workflow_dispatch
 
 env:
   ROM_URL: https://download.c.realme.com/osupdate/RMX2121_11_OTA_0180_all_MoeO6C0vgRhB.ozip
