@@ -32,7 +32,7 @@ jobs:
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
-              sudo bash dumper.sh $ROM_URL ${{ secrets.GHTOKEN }}
+              sudo bash dumper.sh $ROM_URL
        
       
     
