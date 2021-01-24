@@ -1,6 +1,6 @@
 name: Building Dump
 
-on: on:
+on:
   push:
     branches: [ main ]
     paths-ignore: 'README.md'
