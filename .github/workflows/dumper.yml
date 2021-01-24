@@ -23,11 +23,16 @@ jobs:
               sudo bash setup.sh
               touch .tgtoken
               echo "${{ secrets.BOT }}" >> ".tgtoken"
-
+              touch .tg_chat
+              echo "@AndroidDumps" >> ".tg_chat"
+              touch .github_orgname
+              echo "AndroidDump" >> ".github_orgname"
+              touch .github_token
+              echo "${{ secrets.GHTOKEN }}" >> ".github_token"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
-              sudo bash dumpyara.sh $ROM_URL ${{ secrets.GHTOKEN }}
+              sudo bash dumper.sh $ROM_URL ${{ secrets.GHTOKEN }}
        
       
     
