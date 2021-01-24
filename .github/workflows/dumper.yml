@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX2121_11_OTA_0180_all_MoeO6C0vgRhB.ozip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2185_11_OTA_0810_all_jLGoLXnVv2Zm.ozip
 jobs:
   build:
     runs-on: ubuntu-20.04
