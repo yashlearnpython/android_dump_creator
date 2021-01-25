@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  ROM_URL: https://ghostmirror.hitesh920.workers.dev/MIUIPLUS.NOTE+7_Lavender.21.1.20_v12.5-10.zip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX1851EX_11_OTA_1100_all_afysQxXkAd0p.ozip
 jobs:
   build:
     runs-on: ubuntu-20.04
