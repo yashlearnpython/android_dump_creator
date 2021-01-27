@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  ROM_URL: http://otafsg-cost.realmemobile.com/RMX1851/RMX1851EX_11.C.13_1130_202101111214/patch/amazone2/GLO/RMX1851EX/RMX1851EX_11.C.13_1130_202101111214/RMX1851EX_11_OTA_1130_all_jvJvavUn2MPH_499ca4.ozip
+  ROM_URL: http://bigota.d.miui.com/V12.1.5.0.RGICNXM/miui_PICASSO_V12.1.5.0.RGICNXM_93d47d6f82_11.0.zip
 jobs:
   build:
     runs-on: ubuntu-20.04
