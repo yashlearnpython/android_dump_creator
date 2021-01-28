@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  ROM_URL: http://otafsg-cost.realmemobile.com/RMX1851/RMX1851EX_11.C.14_1140_202101231127/patch/amazone2/GLO/RMX1851EX/RMX1851EX_11.C.14_1140_202101231127/RMX1851EX_11_OTA_1140_all_r2G1igJtTlW1_cae71b8749cc.ozip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2020_11_OTA_0100_all_z6jrx6L7VTg9.ozip
 jobs:
   build:
     runs-on: ubuntu-20.04
