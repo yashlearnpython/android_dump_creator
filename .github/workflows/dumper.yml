@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  ROM_URL: https://drive.google.com/uc?id=10uGFlvrM6PG2-wmAy-mdlaHm79H6IsQt&export=download
+  ROM_URL: https://tdrive.elytra8.workers.dev/SM-A920F_2_20200908192434_amght0c8ur_fac.zip
 jobs:
   build:
     runs-on: ubuntu-20.04
