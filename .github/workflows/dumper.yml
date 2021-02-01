@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/Samfw.com_SM-J610F_INS_J610FXXS6CUA2.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus8Oxygen_15.E.32_OTA_0320_all_2011190124_eba775c.zip
 jobs:
   build:
     runs-on: ubuntu-20.04
