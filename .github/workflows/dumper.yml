@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus8Oxygen_15.E.32_OTA_0320_all_2011190124_eba775c.zip
+  ROM_URL: http://otafsg-cost.realmemobile.com/RMX2151/RMX2151PU_11.A.83_0830_202101281938/patch/amazone2/GLO/RMX2151PU/RMX2151PU_11.A.83_0830_202101281938/RMX2151PU_11_OTA_0830_all_AFFrwZpAzh0Z_7cdab0c341af0e.ozip
 jobs:
   build:
     runs-on: ubuntu-20.04
