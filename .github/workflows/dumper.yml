@@ -1,13 +1,14 @@
 name: Building Dump
 
 on:
-  push:
-    branches: [ main ]
-    paths-ignore: 'README.md'
   workflow_dispatch:
+    inputs:
+      rom_link:
+        description: 'rom link'
+        required: true
 
 env:
-  ROM_URL: http://otafsg-cost.realmemobile.com/RMX2151/RMX2151PU_11.A.83_0830_202101281938/patch/amazone2/GLO/RMX2151PU/RMX2151PU_11.A.83_0830_202101281938/RMX2151PU_11_OTA_0830_all_AFFrwZpAzh0Z_7cdab0c341af0e.ozip
+  ROM_URL: ${{ github.event.inputs.rom_link }}
 jobs:
   build:
     runs-on: ubuntu-20.04
