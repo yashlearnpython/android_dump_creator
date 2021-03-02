@@ -18,7 +18,7 @@ jobs:
          uses: actions/checkout@master
        
        - name: Clone Dumper Source Code
-         run: git clone https://github.com/AndroidDump/dumper
+         run: git clone https://github.com/DroidDumps/phoenix_firmware_dumper dumper
        
        - name: Setting up Dumper requirements
          run: |
@@ -32,12 +32,11 @@ jobs:
               echo "AndroidDump" >> ".github_orgname"
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
+              touch .tg_chat
+              echo "@CarbonatedBlackLabs" >> ".tg_chat"
               git config --global user.email "manofuranium@gmail.com"
               git config --global user.name "ElytrA8"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
               sudo bash dumper.sh $ROM_URL
-       
-      
-    
