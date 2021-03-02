@@ -1,4 +1,4 @@
-name: Building Dump
+name: Dumping
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
 env:
   ROM_URL: ${{ github.event.inputs.rom_link }}
 jobs:
-  build:
+  dump:
     runs-on: ubuntu-20.04
 
     steps:
