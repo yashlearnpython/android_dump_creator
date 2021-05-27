@@ -29,13 +29,13 @@ jobs:
               touch .tg_token
               echo "${{ secrets.BOT }}" >> ".tg_token"
               touch .github_orgname
-              echo "AndroidDump" >> ".github_orgname"
+              echo "Fussion-Lab" >> ".github_orgname"
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
               touch .tg_chat
-              echo "@CarbonatedBlackLabs" >> ".tg_chat"
-              git config --global user.email "manofuranium@gmail.com"
-              git config --global user.name "ElytrA8"
+              echo "@Yash_Community" >> ".tg_chat"
+              git config --global user.email "yashnearayanp8@gmail.com"
+              git config --global user.name "Yash"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
