@@ -29,7 +29,7 @@ jobs:
               touch .tg_token
               echo "${{ secrets.BOT }}" >> ".tg_token"
               touch .github_orgname
-              echo "Fussion-Lab" >> ".github_orgname"
+              echo "AndroidDumpsByYash" >> ".github_orgname"
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
               touch .tg_chat
